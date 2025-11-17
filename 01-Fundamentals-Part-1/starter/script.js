@@ -10,10 +10,10 @@ let firstname = "Malinda";
 let lastname = "Amarakoon";
 
 console.log(firstname + " " + lastname);
-*/
+
 
 ///// 10. Practice Assignment
-/*
+
 let country = "Sri Lanka";
 let continent = "Asia";
 let populaiton = "17bil";
@@ -21,7 +21,7 @@ let populaiton = "17bil";
 console.log(country);
 console.log(continent);
 console.log(populaiton);
-*/
+
 
 // 11. Data Types
 
@@ -46,3 +46,33 @@ console.log(year);
 console.log(typeof year);
 
 console.log(typeof null);
+
+// Data Types - Practice Assignments
+let isIsland = true;
+let language;
+
+console.log(typeof isIsland);
+console.log(typeof population);
+console.log(typeof country);
+console.log(typeof language);
+
+
+// 12. Let, Const and Var
+
+let age = 30;
+age = 31;
+
+const birthYear = 2001;
+
+var job = "programmer";
+job = "doctor";
+
+lastName = "Amarakoon";
+console.log(lastName);
+
+// Let, Const and Var - Practice Assignments
+language = "Sinhala";
+const isIsland = true;
+*/
+
+// 13. Basic Operators
