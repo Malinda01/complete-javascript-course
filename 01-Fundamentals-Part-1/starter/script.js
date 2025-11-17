@@ -76,3 +76,6 @@ const isIsland = true;
 */
 
 // 13. Basic Operators
+
+const ageJonas = 2050 - 2001;
+console.log(ageJonas);
