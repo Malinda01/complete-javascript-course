@@ -77,5 +77,34 @@ const isIsland = true;
 
 // 13. Basic Operators
 
-const ageJonas = 2050 - 2001;
-console.log(ageJonas);
+//math ops
+const now = 2050;
+const ageJonas = now - 2001;
+const ageSarah = now - 2018;
+console.log(ageJonas, ageSarah);
+
+// multiply, divide, exponent
+console.log(ageJonas * 2, ageJonas / 2, 2 ** 3);
+
+// concatenation
+const fName = "Malinda";
+const lName = "Amarakoon";
+console.log(fName + " " + lName);
+
+// Assignment ops
+let x = 10 + 5;
+x += 10;
+x *= 4;
+x++;
+x--;
+console.log(x);
+
+// Comparison operators
+console.log(ageJonas > ageSarah);
+console.log(ageSarah > ageJonas);
+console.log(ageSarah >= 40);
+
+const isFullAge = ageSarah >= 18;
+console.log(isFullAge);
+
+console.log(now - 1991 > now - 2019);
