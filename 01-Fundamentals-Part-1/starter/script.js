@@ -203,6 +203,7 @@ if (birthYear <= 2000) {
 console.log(`Century: ${centurty}`);
 */
 
+/*
 // CODING CHALLLENEGE 2
 let massMark = 95;
 let heightMark = 1.88;
@@ -224,3 +225,26 @@ if (BMIMark > BMIJohn) {
 }
 
 console.log(message);
+*/
+
+// 20. Type Conversion and Coersion
+// Type Conversion - Explicitly
+const inputYear = "2001";
+console.log(Number(inputYear) + 18);
+
+console.log(Number("Malinda"));
+console.log(typeof NaN); // number type
+
+console.log(String(23), 23);
+
+// Type Coercioin
+console.log("I am " + 23 + " years old");
+console.log("23" - "10" - 3);
+console.log("23" + "10" + 3);
+
+let n = "1" + 1;
+console.log(n);
+n = n - 1;
+console.log(n);
+
+// 21. Truthy and Falsy values
