@@ -229,22 +229,71 @@ console.log(message);
 
 // 20. Type Conversion and Coersion
 // Type Conversion - Explicitly
-const inputYear = "2001";
-console.log(Number(inputYear) + 18);
+// const inputYear = "2001";
+// console.log(Number(inputYear) + 18);
 
-console.log(Number("Malinda"));
-console.log(typeof NaN); // number type
+// console.log(Number("Malinda"));
+// console.log(typeof NaN); // number type
 
-console.log(String(23), 23);
+// console.log(String(23), 23);
 
-// Type Coercioin
-console.log("I am " + 23 + " years old");
-console.log("23" - "10" - 3);
-console.log("23" + "10" + 3);
+// // Type Coercioin
+// console.log("I am " + 23 + " years old");
+// console.log("23" - "10" - 3);
+// console.log("23" + "10" + 3);
 
-let n = "1" + 1;
-console.log(n);
-n = n - 1;
-console.log(n);
+// let n = "1" + 1;
+// console.log(n);
+// n = n - 1;
+// console.log(n);
 
 // 21. Truthy and Falsy values
+/*
+console.log("Truthy and Falsy values");
+
+// 5 falsy values : 0, '', undefined, null, NaN
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean("Malinda"));
+console.log(Boolean({})); //Empty object is true
+
+const money = 100;
+if (money) {
+  console.log("Dont spend it all ;");
+} else {
+  console.log("You should get a job");
+}
+
+let height = 20;
+if (height) {
+  console.log(`Defined ${height}`);
+} else {
+  console.log("Undefined");
+}
+*/
+
+// 22. Equality Operators
+
+console.log("Equality Operators - == vs ===");
+
+const age = "18";
+if (age === 18) console.log("You just became an adult - (strict)");
+
+if (age == 18) console.log("You just became an adult - (loose)");
+
+const fav = Number(prompt("What is your fav number?")); // explicit conversion
+console.log(fav);
+// console.log(typeof fav);
+
+if (fav === 23) {
+  console.log("Cool!!");
+} else if (fav === 7) {
+  console.log("Not bad!");
+} else {
+  console.log("Kind of bad!");
+}
+
+if (fav !== 23) {
+  console.log("why not 23?");
+}
