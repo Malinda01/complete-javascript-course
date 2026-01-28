@@ -300,4 +300,141 @@ if (fav !== 23) {
 */
 
 // 23. Boolean Logic
+/*
 console.log("23. Boolean Logic");
+*/
+
+// 24. Logical Operators
+/*
+console.log("24. Logical Operators");
+
+const hasDriversLicense = true;
+const hasGoodVision = false;
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+if (hasDriversLicense && hasGoodVision) {
+  console.log("Sarah is able to drive");
+} else {
+  console.log("Someone else should drive");
+}
+
+const isTired = true;
+
+console.log(hasDriversLicense && hasGoodVision && isTired);
+*/
+
+// CODING CHALLLENEGE 3
+/* Write your code below. Good luck! 🙂
+
+const scoreDolphins = (96 + 108 + 89) / 3;
+const scoreKoalas = (88 + 91 + 110) / 3;
+
+if (scoreDolphins > scoreKoalas) {
+  console.log("Dolphins win the trophy");
+} else if (scoreKoalas > scoreDolphins) {
+  console.log("Koalas win the trophy");
+} else if (scoreKoalas === scoreDolphins) {
+  console.log("Both win the trophy");
+}
+ */
+
+// 26. Switch statement
+/*
+console.log("26. Switch statement");
+
+const day = "sunday";
+
+switch (day) {
+  case "monday":
+    console.log("JS course");
+    break;
+  case "tuesday":
+    console.log("Python Course");
+    break;
+  case "wednesday":
+  case "thursday":
+    console.log("Lectures 1");
+    break;
+  case "friday":
+    console.log("Day out");
+  case "saturday":
+  case "sunday":
+    console.log("Chill");
+    break;
+  default:
+    console.log("Not a valid day");
+}
+
+// Equivalent if/else structure
+if (day === "monday") {
+  console.log("Plan course structure");
+  console.log("Go to coding meetup");
+} else if (day === "tuesday") {
+  console.log("Prepare theory videos");
+} else if (day === "wednesday" || day === "thursday") {
+  console.log("Write code examples");
+} else if (day === "friday") {
+  console.log("Record videos");
+} else if (day === "saturday" || day === "sunday") {
+  console.log("Enjoy the weekend :D");
+} else {
+  console.log("Not a valid day!");
+}
+*/
+
+// 27. Statements and Expressions
+/*
+console.log("27. Statements and Expressions");
+
+console.log(3 + 4);
+1991;
+console.log(true && false && !false);
+
+if (23 > 10) {
+  const str = "23 is bigger";
+  console.log(str);
+}
+
+console.log(`I'm ${2026 - 2001} years old now!`);
+*/
+
+// 28. The Conditional (Ternary) operator
+/*
+console.log("28. The Conditional (Ternary) operator");
+
+const age = 25;
+age >= 18
+  ? console.log("I like to drink wine 🍷")
+  : console.log("I like to drink water 🫗");
+
+const drink = age >= 18 ? "Wine 🍷" : "Water 🫗";
+console.log(drink);
+
+// eq code for if/else
+let drink2;
+if (age >= 18) {
+  drink2 = "I like to drink wine 🍷";
+} else {
+  drink2 = "I like to drink water 🫗";
+}
+
+console.log(drink2);
+
+// template literals
+console.log(`I like to drink ${age >= 18 ? "Wine🍷" : "Water 🫗"}`);
+*/
+
+// CODING CHALLENEGE 4
+/*
+const bill = 430;
+
+const tip = bill >= 50 && bill <= 300 ? (bill * 15) / 100 : (bill * 20) / 100;
+const finalBill = bill + tip;
+
+console.log(
+  `The bill was ${bill}, the tip was ${tip}, and the total value ${finalBill}`,
+);
+*/
