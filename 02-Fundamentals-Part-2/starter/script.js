@@ -341,13 +341,83 @@ for (let rep = 1; rep <= 10; rep++) {
 */
 
 // 48. Looping Arrays, Breaking and continuing
+/*
+const malinda = [100, "Malinda", "Amarakoon", 25, "Kandy"];
 
-// const john = {
-//   fullName: "John",
-//   mass: 91,
-//   height: 1.95,
-// };
+const types = [];
 
-// for (let i = 0; ; i++) {
-//   console.log(john[i]);
+for (let i = 0; i < malinda.length; i++) {
+  // reading
+  console.log(malinda[i], typeof malinda[i]);
+
+  // filling an array
+  // types[i] = typeof malinda[i];
+  types.push(typeof malinda[i]);
+}
+
+console.log(types);
+
+// Age Calculation
+const years = [2001, 2002, 2003, 2004];
+const ages = [];
+
+for (let i = 0; i < years.length; i++) {
+  calculation = 2037 - years[i];
+  ages.push(calculation);
+}
+
+console.log(ages);
+
+// continue
+console.log(" ---- Only Strings ---- ");
+for (let i = 0; i < malinda.length; i++) {
+  if (typeof malinda[i] !== "string") continue;
+  console.log(malinda[i], typeof malinda[i]);
+}
+
+// break
+console.log(" ---- Only Strings ---- ");
+for (let i = 0; i < malinda.length; i++) {
+  if (typeof malinda[i] === "number") break;
+  console.log(malinda[i], typeof malinda[i]);
+}
+*/
+
+// 49. Looping Backward and Loops in Loop
+/*
+// Looping backward
+const malinda = [100, "Malinda", "Amarakoon", 25, "Kandy"];
+
+for (let i = malinda.length - 1; i >= 0; i--) {
+  console.log(i, malinda[i]);
+}
+
+// Loop inside a loop
+for (let i = 1; i < 5; i++) {
+  console.log("Rep" + i);
+  for (j = 1; j < 5; j++) {
+    console.log("Malinda" + j);
+  }
+}
+*/
+
+// 50. While Loop
+// for (let rep = 1; rep <= 3; rep++) {
+//   console.log(`Lifting weight ${rep}`);
 // }
+
+// let rep = 1;
+// while (rep <= 3) {
+//   console.log("Hi" + rep);
+//   rep++;
+// }
+
+// let dice = Math.trunc(Math.random() * 6) + 1;
+// console.log(dice);
+
+// while (dice !== 6) {
+//   console.log("You rolled a " + dice);
+//   dice = Math.trunc(Math.random() * 6) + 1;
+// }
+
+// Coding Challenge
