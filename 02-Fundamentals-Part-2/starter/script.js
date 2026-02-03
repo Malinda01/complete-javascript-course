@@ -332,5 +332,22 @@ if (mark.bmi > john.bmi) {
 */
 
 // 47. Iteration: The for loop
+/*
+console.log("Lifting weights Rep 1");
 
-console.log();
+for (let rep = 1; rep <= 10; rep++) {
+  console.log(`Lifting weight ${rep}`);
+}
+*/
+
+// 48. Looping Arrays, Breaking and continuing
+
+const john = {
+  fullName: "John",
+  mass: 91,
+  height: 1.95,
+};
+
+for (let i = 0; ; i++) {
+  console.log(john[i]);
+}
