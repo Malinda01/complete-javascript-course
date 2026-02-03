@@ -215,3 +215,39 @@ console.log(`Total Bills are: ${totals}`);
 */
 
 // 43. Introduction to objects
+
+const malinda = ["Malinda", "Greshan", 25];
+
+const malinda_object = {
+  firstName: "Malinda",
+  lastName: "Amarakoon",
+  age: 25,
+  friends: ["pathushi", "b", "c"],
+};
+
+console.log(malinda_object);
+
+console.log(malinda_object.firstName);
+console.log(malinda_object["firstName"]);
+
+const namKey = "Name";
+console.log(malinda_object["first" + namKey]);
+console.log(malinda_object["last" + namKey]);
+
+// const interestedIn = prompt("What do you want to know about Malinda?");
+
+// if (malinda_object[interestedIn]) {
+//   console.log(malinda_object[interestedIn]);
+// } else {
+//   console.log("Wrong request");
+// }
+
+malinda_object.location = "Kandy";
+malinda_object["Gmail"] = "greshanamarakoon@gmail.com";
+console.log(malinda_object);
+
+// challenge
+// "Malinda has 3 friends, and his best friend is Pathushi"
+console.log(
+  `${malinda_object.firstName} has ${malinda_object.friends.length} friends, his best friend is called ${malinda_object.friends[0]}`,
+);
