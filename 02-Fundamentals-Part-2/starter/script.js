@@ -342,12 +342,12 @@ for (let rep = 1; rep <= 10; rep++) {
 
 // 48. Looping Arrays, Breaking and continuing
 
-const john = {
-  fullName: "John",
-  mass: 91,
-  height: 1.95,
-};
+// const john = {
+//   fullName: "John",
+//   mass: 91,
+//   height: 1.95,
+// };
 
-for (let i = 0; ; i++) {
-  console.log(john[i]);
-}
+// for (let i = 0; ; i++) {
+//   console.log(john[i]);
+// }
