@@ -215,7 +215,7 @@ console.log(`Total Bills are: ${totals}`);
 */
 
 // 43. Introduction to objects
-
+/*
 const malinda = ["Malinda", "Greshan", 25];
 
 const malinda_object = {
@@ -251,3 +251,86 @@ console.log(malinda_object);
 console.log(
   `${malinda_object.firstName} has ${malinda_object.friends.length} friends, his best friend is called ${malinda_object.friends[0]}`,
 );
+*/
+
+// 45. Object Methods
+/*
+const malinda = {
+  firstName: "Malinda",
+  lastName: "Amarakoon",
+  birthYear: 2001,
+  job: "Software Engineer",
+  friends: ["Pathushi", "Shamina", "Eranga"],
+  hasDriversLicense: true,
+
+  // calcAge: function (birthYear) {
+  //   return 2026 - birthYear;
+  // },
+
+  // calcAge: function () {
+  //   return 2026 - this.birthYear;
+  // },
+
+  calcAge: function () {
+    this.age = 2026 - this.birthYear;
+    return this.age;
+  },
+  getSummary: function () {
+    return `This is ${this.firstName}, who is born in ${this.birthYear} and age ${this.calcAge()}, and he has ${this.hasDriversLicense ? "a" : "no"} drivers license`;
+  },
+};
+
+console.log(malinda.getSummary());
+
+console.log(malinda.calcAge());
+console.log(malinda.age);
+console.log(malinda.age);
+console.log(malinda.age);
+// console.log(malinda["calcAge"](2001));
+
+// This is Malinda, who is born in 2001 and age 25. He is a Software Engineer
+// His girlfirend is Pathishi. He has/no drivers license.
+*/
+
+// Coding Exercise 7: Challenge 3
+/* Write your code below. Good luck! 🙂 
+
+// Mark Object
+const mark = {
+  fullName: "Mark",
+  mass: 78,
+  height: 1.69,
+
+  calcBMI: function () {
+    this.bmi = this.mass / (this.height * this.height);
+    return this.bmi;
+  },
+};
+
+// John Object
+const john = {
+  fullName: "John",
+  mass: 91,
+  height: 1.95,
+
+  calcBMI: function () {
+    this.bmi = this.mass / (this.height * this.height);
+    return this.bmi;
+  },
+};
+
+mark.calcBMI();
+john.calcBMI();
+
+console.log("Mark: " + mark.bmi, "JOhn: " + john.bmi);
+
+if (mark.bmi > john.bmi) {
+  console.log(
+    `Mark's BMI (${mark.bmi}) is higher than John's BMI (${john.bmi})`,
+  );
+}
+*/
+
+// 47. Iteration: The for loop
+
+console.log();
